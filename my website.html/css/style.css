@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 33%;
+    border: 7px solid white;
+    border-radius: 75px;
+}
+
+.navbar{
+    display: flex;
+
+}
+.nav-list{
+     width: 50%;
+     background-color: black;
+     display: flex;
+     align-items: center;
+}
+
+.nav-list li{
+      list-style: none;
+}
+
+.nav-list li a{
+      text-decoration: none;
+      color: blanchedalmond;
+}
+
+.rightnav{
+    background-color: red;
+    width: 50%;
+    text-align: right;
+}

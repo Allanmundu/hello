@@ -1,0 +1,54 @@
+h1{
+    margin-left: 3rem;
+    font-weight: 800;
+}
+li{
+     list-style: none ;
+     margin-left: 2rem;
+}
+
+.navbar>nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+
+}
+.welcomeimage>img{
+    height: 150vh;
+    width: 125vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+.skills{
+    display: flex;
+}
+.skills>div{
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.skills>div>p{
+    padding: 1rem;
+}
+
+.footer{
+background-color: black;
+color: white;
+text-align: center;
+}
+
+.footer>p{
+font-size: 25px;
+text-align: center;
+}
+a:link, a:visited{
+    color: rgb(red, green, blue);
+}
+a:hover{
+    color: navy;
+}
+a{
+    text-decoration: none;
+}
